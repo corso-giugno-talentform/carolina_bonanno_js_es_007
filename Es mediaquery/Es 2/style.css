@@ -1,0 +1,14 @@
+:root{
+    --colore-box: rgb(41, 112, 77);
+    --colore-font: white;
+    --big: 48px;
+}
+
+.box {
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    background-color: var(--colore-box);
+    color: var(--colore-font);
+    font-size: var(--big);
+}
