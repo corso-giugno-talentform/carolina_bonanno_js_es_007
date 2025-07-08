@@ -7,18 +7,20 @@
     --color-img: #38cb78;
     --color-post: #eec9d7;
     --color-footer: #f1a72b;
+    --standard-gap: 4px;
 }
 
 p {
     text-align: center;
 }
+
 body {
     font-family:Arial, Helvetica, sans-serif;
     color: white;
     font-size: 24px;
     display: flex;
     flex-wrap: wrap;
-    gap: 4px;
+    gap: var(--standard-gap);
 }
 
 header {
@@ -32,7 +34,7 @@ header {
 main{
     display: flex;
     flex-wrap: wrap;
-    gap: 4px;
+    gap: var(--standard-gap);
     width: 100%;
 }
 
@@ -40,13 +42,13 @@ main{
     display: flex;
     flex-direction: row;
     width: 100%;
-    gap: 4px;
+    gap: var(--standard-gap);
 }
 
 .first-column {
     display: flex;
     flex-direction: column;
-    gap: 4px;
+    gap: var(--standard-gap);
     width: 40%;
 }
 
@@ -68,7 +70,7 @@ main{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    gap: 4px;
+    gap: var(--standard-gap);
     width: 60%;
 }
 
@@ -89,7 +91,7 @@ main{
 .last-row {
     display: flex;
     flex-direction: row;
-    gap: 4px;
+    gap: var(--standard-gap);
     width: 100%;
 }
 
